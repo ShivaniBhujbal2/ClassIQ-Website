@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    
+}
+:root{
+    --primary-color:#C2F578;
+    --comman-padding:0 8vw;
+    --primary-text-color:#000
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: var(--comman-padding);
+} 
+.header-left{
+    
+    display: flex;
+    align-items: center;
+   
+}
+.header-left a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin: 30px;
+}
+.logo{
+    font-size: 4vh;
+    font-weight: bolder;
+}
+.header-left,.cource{
+    color: rgb(86, 82, 82);
+    font-size: 15px;
+    
+}
+button{
+    width: 5vw;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    height: 4vh;
+    margin: 10px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap:130px;
+    padding: var(--comman-padding);
+    padding-left: 12vw;
+    margin-bottom: 16 vh;
+    margin-top: 35px;
+}
+.classiq-img{
+    height: 575px;
+    width: 459px;
+}
+.main-left{
+    margin-top: 9vh;
+}
+
+.heading1{
+    font-size: 65px;
+    font-weight: lighter;
+    color: black  ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading2{
+    position: relative;
+    font-weight: bolder;
+   
+}
+.line{
+    position: absolute;
+    top: 33px;
+    left: -50px;
+}
+.main-info{
+    margin-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.main-button{
+    width: 8vw;
+    background-color: #C2F578;
+    color: var(--primary-text-color);
+    margin-top: 3vh;
+   
+}
+.main-right{
+    margin-top: -4vh;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    background: radial-gradient(
+        circle,
+        var(--primary-color) 0%,
+        rgba(148, 187, 233, 0) 70%
+      )
+   
+}
+
+.mini-img{
+    position: absolute;
+    left: -3vw;
+    top: 15vh;
+}
+.mini-img2{
+    position: absolute;
+    top: 18vh;
+    right: 7vw;
+    height: 30px;
+    width: 30px;
+}
+
+.main2{
+    text-align: center;
+    padding: var(--comman-padding);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(123, 120, 120);
+    font-weight: bold;
+    margin-top: 9vh;
+}
+.main3{
+    padding: var(--comman-padding);
+   margin: 10px;
+   margin-bottom: 2vh;
+}
+svg{
+   
+    margin: 35px;
+}
+.certified{
+    padding: var(--comman-padding);
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 4vh;
+}
+.certified-heading{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+.mini-text{
+    font-weight: bolder;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+
+}
+.cources    {
+    display: flex;
+    justify-content: center;
+    gap: 11vw;
+    padding: var(--comman-padding);
+    margin-top: 9vh;
+}
+.cources-child{
+    text-align: center;
+}
+.cources-child,p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.cource-button{
+    background-color:#C2F578;
+    width: 9vw;
+    border-radius: 7px;
+    color: black;
+}
+.solution{
+    display: flex;
+    justify-content: center;
+    margin-top: 11vh;
+    padding: var(--comman-padding);
+    gap: 9vw;
+}
+.sol-text{
+   padding: 3px;
+   margin: 20px;
+
+}
+.solution,h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: black;
+}
+.solution,p{
+    color: gray;
+    font-size: 13px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sol-button{
+    background-color:#C2F578;
+    width: 7vw;
+    border-radius: 7px;
+    color: black;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: var(--comman-padding);
+    gap: 20vw;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: -18vw;
+    color: black;
+    margin-left: -35px;
+
+}
+
+.footer-logo{
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.footer-logo,p{
+    padding-left: -20vw;
+}
+.footer-input{
+    display: flex;
+    padding-top: 16px;
+    
+}
+.footer-button{
+    background-color: #C2F578;
+    color: black;
+    height: 4vh;
+    margin-top: 1vh;
+}
+.footer-input-text{
+    height: 4vh;
+    width: 15vw;
+    margin-top: 1vh;
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50vw;
+    gap: 2vh;
+    margin-top: 15vh;
+}    
+form,input{
+    width: 18vw;
+    height: 5vh;
+}
+.form-button{
+    width: 18vw;
+    background-color: #C2F578;
+    color: black;
+    height: 3vh;
+}
+.main-footer{
+    display: flex;
+   padding: var(--comman-padding);
+    justify-content: space-between;
+    align-items: center;
+    gap: 6vw;
+    padding-bottom: 3vh;
+    padding-top: 2px;
+}
+.footer-main-img{
+    height: 2vh;
+    width: 2vw;
+    background-color: #C2F578;
+    border-radius: 4px;
+    
+}
+.footer-main-img{
+    height: 30px;
+    width: 30px;
+    background-color: #C2F578;
+    position: relative;
+}
+.footer-main-img2{
+    position: absolute;
+    top: -3.4vh;
+    left: -1.7vw;
+}
+.footer-main-icon{
+    display: flex;
+    gap: 6px;
+}
+.cource-name{
+    padding: var(--comman-padding);
+}
+
+.cource-main{
+    padding: var(--comman-padding);
+    
+
+}
+.cource-name{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: -50px;
+
+}
+.cource-arrow{
+    position: absolute;
+    top: -27px;
+   
+}
+.cources-img{
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 82px;
+    padding-left: 100px;
+}
+.cources-img1{
+    width: 300px;
+}
+.cource-img1,img{
+    height: 200px;
+    width: 300px;
+}
+.cource-button2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.cource-button2,div{
+    font-weight: bolder;
+}
+.cource-enrol{
+    background-color: #C2F578;
+    width: 85px;
+    color: black;
+    
+    
+}
+.cource-enrol:hover{
+    background-color:green;
+   
+}
+
+
+
+
+
+

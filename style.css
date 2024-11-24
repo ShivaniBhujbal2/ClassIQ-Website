@@ -215,7 +215,7 @@ footer{
     display: flex;
     justify-content: center;
     padding: var(--comman-padding);
-    gap: 20vw;
+    gap: 11vw;
     margin-top: 15vh;
     margin-bottom: 5vh;
 }
@@ -253,16 +253,23 @@ footer{
     width: 15vw;
     margin-top: 1vh;
 }
+.footer-text1{
+    width: 200px;
+}
 form{
    
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 50vw;
+    justify-content: center;
+    
     gap: 2vh;
     margin-top: 15vh;
+    background-color: rgb(241, 232, 232);
+    height: 300px;
+    
 }    
-form,input{
+form input{
     width: 18vw;
     height: 5vh;
 }
@@ -270,14 +277,14 @@ form,input{
     width: 18vw;
     background-color: #C2F578;
     color: black;
-    height: 3vh;
+    height: 5vh;
 }
 .main-footer{
     display: flex;
    padding: var(--comman-padding);
     justify-content: space-between;
     align-items: center;
-    gap: 6vw;
+    gap: 3vw;
     padding-bottom: 3vh;
     padding-top: 2px;
 }

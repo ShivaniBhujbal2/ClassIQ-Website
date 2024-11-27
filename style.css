@@ -5,15 +5,89 @@
     
 }
 :root{
+    font-size: 62.5%;
     --primary-color:#C2F578;
     --comman-padding:0 8vw;
     --primary-text-color:#000
+    
 }
+@media(max-width: 768px) {
+    html{
+        font-size: 45%;
+    }
+    header{
+        margin-left: -12%;
+        
+    }
+    .heading1{
+        text-align: center;
+    }
+    .classiq-img,.mini-img2,.mini-img svg,.line svg,.main3 svg{
+        display: none;
+       
+    
+    }
+    main{
+        font-size: 10vh;
+        align-items: center;
+        text-align: center;
+    }
+    .sol-text{
+        font-size: -4%;
+    }
+    .main-button{
+       width: 2em;
+       
+    }
+    
+    .cources{
+       flex-direction: column;
+    }
+    footer{
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 30px;
+        
+    }
+    .footer-logo{
+        justify-content: left;
+        margin-left: 10%;
+    }
+    .footer-text1 h3,.footer-text2 h3{
+        font-size:-2rem ;
+    }
+    .certified{
+        font-size: 1.1rem;
+        flex-wrap: wrap;
+    }
+    .cources-child img{
+        height: 20rem;
+        width: 30rem;
+    }
+    .sol-img img{
+        margin-left: -8%;
+        gap: 5%;
+    }
+    .main-footer{
+        flex-direction: column;
+    }
+    form input{
+        height: 7vh;
+        width: 25vw;
+    }
+    .cource-main{
+        text-align: center;
+    }
+    
+    
+    
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    height: 8rem;
     padding: var(--comman-padding);
 } 
 .header-left{
@@ -27,32 +101,32 @@ header{
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 1vw;
-    margin: 30px;
+    gap: .1rem;
+    margin: 3rem;
 }
 .logo{
-    font-size: 4vh;
+    font-size: 4rem;
     font-weight: bolder;
 }
 .header-left,.cource{
     color: rgb(86, 82, 82);
-    font-size: 15px;
+    font-size: 1.5rem;
     
 }
 button{
-    width: 5vw;
+    width: 5rem;
     border: none;
     background-color: black;
     color: white;
-    border-radius: 4px;
-    height: 4vh;
-    margin: 10px;
+    border-radius: .4rem;
+    height: 3.5rem;
+    margin: 1.0rem;
     cursor: pointer;
 }
 main{
     display: flex;
     justify-content: center;
-    gap:130px;
+    gap:13.0rem;
     padding: var(--comman-padding);
     padding-left: 12vw;
     margin-bottom: 16 vh;
@@ -67,7 +141,7 @@ main{
 }
 
 .heading1{
-    font-size: 65px;
+    font-size: 6.5rem;
     font-weight: lighter;
     color: black  ;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +162,7 @@ main{
     color: grey;
 }
 .main-button{
-    width: 8vw;
+    width: 13rem;
     background-color: #C2F578;
     color: var(--primary-text-color);
     margin-top: 3vh;
@@ -149,13 +223,13 @@ svg{
 .certified-heading{
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size:2.2rem;
 }
 .mini-text{
     font-weight: bolder;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 2.2rem;
 
 }
 .cources    {
@@ -175,7 +249,7 @@ svg{
 }
 .cource-button{
     background-color:#C2F578;
-    width: 9vw;
+    width: 11rem;
     border-radius: 7px;
     color: black;
 }
@@ -206,7 +280,7 @@ svg{
 }
 .sol-button{
     background-color:#C2F578;
-    width: 7vw;
+    width: 8rem;
     border-radius: 7px;
     color: black;
 
@@ -245,16 +319,25 @@ footer{
 .footer-button{
     background-color: #C2F578;
     color: black;
-    height: 4vh;
+    height: 3rem;
+    width: 10rem;
     margin-top: 1vh;
 }
 .footer-input-text{
-    height: 4vh;
-    width: 15vw;
+    height: 3rem;
+    width: 21rem;
     margin-top: 1vh;
 }
 .footer-text1{
     width: 200px;
+}
+.footer-text1 h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.footer-text2 h3{
+    font-weight: bolder;
+    font-size: 2rem;
 }
 form{
    
@@ -270,14 +353,14 @@ form{
     
 }    
 form input{
-    width: 19vw;
-    height: 5vh;
+    width: 27rem;
+    height: 4rem;
 }
 .form-button{
-    width: 19vw;
+    width: 27rem;
     background-color: #C2F578;
     color: black;
-    height: 5vh;
+    height: 4rem;
 }
 .main-footer{
     display: flex;
@@ -374,6 +457,8 @@ form input{
 .main-div1{
     background-color: #fff;
 }
+
+
 
 
 

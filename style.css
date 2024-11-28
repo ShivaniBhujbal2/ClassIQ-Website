@@ -24,6 +24,7 @@
     }
     .classiq-img,.mini-img2,.mini-img svg,.line svg,.main3 svg{
         display: none;
+
        
     
     }
@@ -82,6 +83,14 @@
     .heading2{
         color: #91eb09;
     }
+    .footer-main-img2{
+        font-size: large;
+        left: 3px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
     
     
 }
@@ -89,10 +98,19 @@
     .mini-img2,.mini-img svg,.line svg,.main3 svg{
         display: none;
     }
+    .cources{
+        flex-wrap: wrap;
+    }
+    .text{
+        font-size: 15px;
+    }
 }
 @media (max-width:1360px) {
     .mini-img2,.mini-img svg,.line svg,.main3 svg{
         display: none;
+    }
+    .text{
+        font-size: 10px;
     }
 }
 
@@ -400,7 +418,7 @@ form input{
 .footer-main-img2{
     position: absolute;
     top: -3.4vh;
-    left: -1.7vw;
+    left: -2.5rem;
 }
 .footer-main-icon{
     display: flex;

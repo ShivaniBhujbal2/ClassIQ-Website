@@ -79,8 +79,21 @@
         text-align: center;
     }
     
+    .heading2{
+        color: #91eb09;
+    }
     
     
+}
+@media (max-width:998px) {
+    .mini-img2,.mini-img svg,.line svg,.main3 svg{
+        display: none;
+    }
+}
+@media (max-width:1360px) {
+    .mini-img2,.mini-img svg,.line svg,.main3 svg{
+        display: none;
+    }
 }
 
 header{
